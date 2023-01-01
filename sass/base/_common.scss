@@ -1,0 +1,23 @@
+.body {
+  font-family: 'Epilogue', sans-serif;
+  color: #FFFFFF;
+  background-color: #2d2f44;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
