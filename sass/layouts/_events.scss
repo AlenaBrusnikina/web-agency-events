@@ -8,8 +8,9 @@
 
     @media screen and (min-width: 767px) {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-between;
+        padding-top: 20px;
     }
 
     @media screen and (min-width: 1170px) {
@@ -17,22 +18,30 @@
         height: 336px;
     }
 }
+
+.events-get-started__wrap {
+    position: relative;
+    @media screen and (min-width: 1170px) {
+        width: 248px;
+        padding-bottom: 34px;
+    }
+}
+
 .events-get-started__icon {
     position: absolute;
-    top: -78px;
-    left: 14px;
+    top: -167px;
+    left: -14px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 148px;
     height: 148px;
     background-image: url(../images/events-star.png);
-}
-
-.events-get-started__wrap {
-    @media screen and (min-width: 1170px) {
-        width: 248px;
-    }
+    
+    // @media screen and (min-width: 1170px) {
+    //     top: 0;
+    //     left: 0;
+    // }
 }
 
 .events-get-started__text {
@@ -162,7 +171,7 @@
 
     @media screen and (min-width: 1170px) {
         display: block;
-        left: 84%;
+        left: 86%;
         width: 239px;
         height: 396px;
         background-image: url(../images/events-woman-desktop@1x.png);

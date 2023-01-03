@@ -444,12 +444,13 @@ body.modal-open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding-top: 20px;
   }
 }
 @media screen and (min-width: 1170px) {
@@ -459,10 +460,20 @@ body.modal-open {
   }
 }
 
+.events-get-started__wrap {
+  position: relative;
+}
+@media screen and (min-width: 1170px) {
+  .events-get-started__wrap {
+    width: 248px;
+    padding-bottom: 34px;
+  }
+}
+
 .events-get-started__icon {
   position: absolute;
-  top: -78px;
-  left: 14px;
+  top: -167px;
+  left: -14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,12 +486,6 @@ body.modal-open {
   width: 148px;
   height: 148px;
   background-image: url(../images/events-star.png);
-}
-
-@media screen and (min-width: 1170px) {
-  .events-get-started__wrap {
-    width: 248px;
-  }
 }
 
 .events-get-started__text {
@@ -629,7 +634,7 @@ body.modal-open {
 @media screen and (min-width: 1170px) {
   .events-get-img__picture-woman {
     display: block;
-    left: 84%;
+    left: 86%;
     width: 239px;
     height: 396px;
     background-image: url(../images/events-woman-desktop@1x.png);
